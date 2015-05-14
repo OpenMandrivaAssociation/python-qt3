@@ -15,6 +15,7 @@ BuildRoot: %_tmppath/%name-%version-%release-root
 BuildRequires: qt3-devel
 BuildRequires: python-sip >= 1:4.7
 BuildRequires: python-devel
+BuildRequires:	pkgconfig(glu)
 
 %description
 PyQt is a set of Python bindings for Trolltech's Qt application framework and
