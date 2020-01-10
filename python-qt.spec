@@ -33,7 +33,7 @@ runs on all platforms supported by Qt including Windows, MacOS/X and Linux.
 
 %prep
 %setup -q -n PyQt-x11-gpl-%version
-%apply_patches
+%autopatch -p1
 
 %build
 export QTDIR=%qt3dir
