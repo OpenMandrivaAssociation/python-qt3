@@ -12,6 +12,7 @@ License: GPLv2+
 Provides: PyQt = %epoch:%version-%release
 Requires: python-sip >= 1:4.7
 BuildRoot: %_tmppath/%name-%version-%release-root
+BuildRequires:	make
 BuildRequires: qt3-devel
 BuildRequires: python-sip >= 1:4.7
 BuildRequires: python-devel
